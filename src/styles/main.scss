@@ -1,0 +1,84 @@
+@import './variables';
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $background-color;
+}
+
+.App {
+  height: 100vh;
+}
+.container {
+  &__flex {
+      display: flex;
+      justify-content: space-between;
+  }
+  &__sm {
+      max-width: 500px;
+      margin: 0 auto;
+  }
+}
+.form {
+   &__grid {
+       display: grid;
+       grid-template-columns: 25rem auto;
+       gap: 1rem;
+   }
+   @media (max-width: 768px) {
+       &__grid {
+           grid-template-columns: 1fr;
+       }
+
+   }	
+}
+
+.h {
+  &__1 {
+     height: 1rem;
+  }
+  &__2 {
+     height: 2rem;
+  }
+  &__3 {
+     height: 3rem;
+  }
+  &__4 {
+    height: 4rem;
+ }
+}	
+
+.mb {
+  &__1 {
+      margin-bottom: 1rem;
+  }
+  &__2 {
+      margin-bottom: 2rem;
+  }
+  &__3 {
+      margin-bottom: 3rem;
+  }
+}
+
+.mt {
+  &__1 {
+      margin-top: 1rem;
+  }
+  &__2 {
+      margin-top: 2rem;
+  }
+  &__3 {
+      margin-top: 3rem;
+  }
+}
+
+.w {
+  &__10 {
+      width: 10rem;
+  }
+  &__25 {
+      width: 25rem;
+  }
+  &__50 {
+      width: 50rem;
+  }
+}
