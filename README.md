@@ -76,7 +76,7 @@ To install and run the application locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/todo-webapp.git
+    git clone https://github.com/wesleyberger/clinicorp.git
     ```
 2. Navigate to the project directory:
     ```bash
